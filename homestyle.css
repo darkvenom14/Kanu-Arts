@@ -1,0 +1,395 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* ===================== Header =======================*/
+
+header {
+  height: 100vh;
+  width: 100%;
+  background: url(icons/bc\(4\)4.png);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.greet {
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: bold;
+  font-family: Verdana, sans-serif;
+  color: rgb(27, 56, 27);
+}
+
+.greet img {
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  opacity: 0.9;
+}
+
+/* ======================== About ====================*/
+
+main {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  background-color: rgb(33, 92, 72);
+}
+
+.about {
+  display: flex;
+}
+
+.img {
+  background: url(icons/bc\(4\)4.png);
+  background-size: cover;
+  height: 100%;
+  width: 80vh;
+  display: flex;
+}
+
+.img img {
+  height: 60vh;
+  width: auto;
+  margin: auto;
+  margin-right: 0;
+  border: 20px solid rgb(33, 92, 72);
+  border-right: 0;
+}
+
+.detail {
+  background-color: rgb(41, 114, 90);
+  height: 80vh;
+  width: 80vh;
+  margin: 8.5rem;
+  align-self: center;
+  text-align: center;
+}
+
+.name {
+  color: rgb(14, 54, 42);
+  font-size: 3.5rem;
+  font-family: serif, sans-serif, Times;
+}
+
+.aboutme {
+  padding-top: 1.5rem;
+  color: rgb(99, 204, 171);
+  font-size: 2.2rem;
+  background-color: rgb(33, 105, 81);
+  margin-right: 8rem;
+  margin-left: 0.3rem;
+}
+
+.data {
+  padding: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  font-size: 1.1rem;
+  height: 40vh;
+  width: auto;
+  font-family: sans-serif;
+  color: #70d8c2;
+}
+
+.icon {
+  color: #70d8c2;
+  margin-left: 0.5rem;
+  text-decoration: none;
+}
+
+
+
+.insta {
+  font-size: 1.1rem;
+}
+
+.insta:hover {
+  font-size: 1.2rem;
+  color: #f30b8b;
+}
+
+.email:hover {
+  font-size: 1.2rem;
+  color: rgb(146, 9, 9);
+}
+
+.linkedin:hover {
+  font-size: 1.2rem;
+  color: rgb(32, 32, 235);
+}
+
+.git:hover {
+  font-size: 1.2rem;
+  color: black;
+}
+
+.coder span {
+  color: #0d352c;
+}
+
+/* =========================== ART-Work ================================ */
+
+.art {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100%;
+  background: url(icons/bc\(4\)4.png);
+  background-size: cover;
+}
+
+.artwork {
+  height: 77vh;
+  width: 74%;
+  background-color: rgba(106, 177, 48, 0.4);
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  overflow: auto;
+}
+
+.artwork img {
+  height: 33vh;
+  width: 25vh;
+  margin: 1rem;
+  border: 9px solid rgb(37, 61, 18);
+  border-radius: 6%;
+}
+
+.logo img {
+  height: 100px;
+  width: auto;
+  border-top-right-radius: 31%;
+  border-bottom-left-radius: 31%;
+  border-top-left-radius: 53%;
+  border-bottom-right-radius: 53%;
+}
+
+.up {
+  height: 15vh;
+  width: 100%;
+  display: flex;
+  justify-content: right;
+}
+
+.up img {
+  height: 15vh;
+  border-radius: 35%;
+  width: 25vh;
+  margin-top: 0.3rem;
+  border: 1px solid white;
+}
+
+.down {
+  height: 20vh;
+  width: 100%;
+  bottom: 0;
+  display: flex;
+  justify-content: end;
+}
+
+.down img {
+  height: 20vh;
+  width: 20vh;
+  border-radius: 50%;
+  margin: 0;
+  border: 1px solid white;
+}
+
+.down p {
+  font-size: 1.5rem;
+  color: #0f332b;
+  font-weight: 700;
+  font-family: Arial, sans-serif;
+}
+
+.up p {
+  font-size: 1.3rem;
+  color: #0f332b;
+  font-weight: 600;
+  font-family: Arial, sans-serif;
+  margin: 1rem;
+}
+
+/* ========================= For responsive screem ======================== */
+
+
+/* Large screen  */
+
+@media(max-width:1440px){
+
+  .greet{
+    font-size: 2.4rem;
+  }
+
+  .about{
+    width: 100%;
+  }
+  .name{
+    font-size: 3.5rem;
+  }
+  .aboutme{
+    font-size: 2.3rem;
+  }
+  .data{
+    font-size: 1.3rem;
+  }
+  .link{
+    font-size: 1.2rem;
+  }
+}
+
+@media(max-width:1024px){
+  .greet{
+    font-size: 2.2rem;
+  }
+  .name{
+    font-size: 3rem;
+  }
+  .aboutme{
+    font-size: 1.5rem;
+  }
+  .data{
+    font-size: 1.3rem;
+  }
+  .link{
+    font-size: 1rem;
+  }
+}
+
+
+/* medium screen */
+@media(max-width:768px) {
+  .greet{
+    font-size: 1.7rem;
+  }
+  .logo{
+    height: 5rem;
+    display: flex;
+  }
+  .logo img{
+    height: 3.6rem;
+    width: 4rem;
+    align-self: center;
+  }
+  .up img{
+    height: 3rem;
+    width: 3.6rem;
+  }
+  .up{
+    height: 4rem;
+  }
+  .up p{
+    font-size: 1.2rem;
+    margin: 0;
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+  }
+  .artwork{
+    justify-content: space-evenly;
+  }
+  .down{
+    height: 3rem;
+    background-color: rgb(126, 168, 143);
+  }
+  .down img{
+    height: 2.5rem;
+    width: 2.6rem;
+  }
+  .down p{
+    font-size: 1rem;
+  }
+  .name{
+    font-size: 2.2rem;
+  }
+  .aboutme{
+    font-size: 1.3rem;
+    margin-right: 2.5rem;
+  }
+  .about{
+    width: 100%;
+    height: 100vh;
+  }
+  .data{
+    font-size: 1rem;
+  }
+  .img{
+    width: 80vh;
+  }
+  .detail{
+    margin: 3.6rem;
+  }
+  .link{
+    font-size: 1rem;
+  }
+  .coder{
+    font-size: 0.8rem;
+  }
+}
+
+/* small size screen */
+@media(max-width: 425px) {
+
+  .greet{
+    font-size: 1.3rem;
+  }
+  .up{
+    height: 4rem;
+  }
+  .up p{
+    font-size: 0.8rem;
+  }
+  .artwork img{
+    height: 15rem;
+    width: 13rem;
+    border: 6px solid #0d352c;
+  }
+  .up img{
+    height: 2rem;
+    width: 2.3rem;
+    border: 2px solid white;
+  }
+  .down img{
+    height: 2.1rem;
+    width: 2.2rem;
+    border: 1px solid white;
+    margin: 0.5rem;
+  }
+  .down p{
+    font-size: 0.8rem;
+    margin: 0.3rem;
+  }
+  .about{
+    flex-direction: column;
+  }
+  .img{
+    width: 100%;
+    height: 100vh;
+  }
+  .img img{
+    height: 20rem;
+    margin: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+    border: 7px solid #0d352c;
+  }
+  .detail{
+    width: 100%;
+  }
+}
+
+@media(max-width: 320px){
+  .up p{
+    font-size: 0.7rem;
+    /* margin: 0.3rem; */
+  }
+  .down p{
+    font-size: 0.6rem;
+  }
+}
